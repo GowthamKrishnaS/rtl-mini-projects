@@ -13,11 +13,7 @@ parameter width= 32)
 
     // Combinational logic for 2-to-1 MUX
     always_comb begin
-        if (sel) begin
-            m_out = a;               // Select a when sel=1
-        end else begin
-            m_out = b;               // Select b when sel=0
-        end
+         m_out = (sel) ? a : b;
     end
 
 endmodule
