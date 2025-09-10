@@ -1,3 +1,7 @@
+//=============================================
+// 4-to-1 multiplexer test bench
+//=============================================
+
 module mux_4to1_tb;
     // Testbench signals
     logic [31:0] d0, d1, d2, d3;
