@@ -55,4 +55,4 @@ The encoder converts a **4-bit one-hot input** into a **2-bit binary code output
 
 ---
 
-## Example Output
+
